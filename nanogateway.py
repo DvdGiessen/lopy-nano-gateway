@@ -288,7 +288,9 @@ class NanoGateway:
         MicroPython has some inprecision when doing large float division.
 
         To counter this, this method first does integer division until we
-        reach the decimal breaking point.
+        reach the decimal breaking point. This doesn't completely elimate
+        the issue in all cases, but it does help for a number of commonly
+        used frequencies.
         """
 
         divider = 6
