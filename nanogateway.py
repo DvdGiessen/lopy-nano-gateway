@@ -46,6 +46,8 @@ class NanoGateway:
     TX_ERR_TX_POWER = 'TX_POWER'
     TX_ERR_GPS_UNLOCKED = 'GPS_UNLOCKED'
 
+    UDP_THREAD_CYCLE_MS = const(10)
+
     STAT_PK = {
         'stat': {
             'time': '',
@@ -84,8 +86,6 @@ class NanoGateway:
             'error': ''
         }
     }
-
-    UDP_THREAD_CYCLE_MS = 10
 
     def __init__(
             self,
