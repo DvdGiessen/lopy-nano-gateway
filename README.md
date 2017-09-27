@@ -1,4 +1,8 @@
 # LoPy LoRaWAN nano gateway
+**Note: PyCom has merged these changes in [b97faca](https://github.com/pycom/pycom-libraries/commit/b97facad08a2c3840d98f5315b3c6a36b072eba0) , I'd recommend using
+that version instead of this one since I probably won't be updating this very
+often anymore. Go get [here](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway).**
+
 This repository contains a simple LoRaWAN nano gateway for use on a LoPy.
 Only required configuration is `wifi_ssid` and `wifi_password` which are used
 for connecting to the Internet.
